@@ -37,11 +37,11 @@ export default {
     title: "Western",
     url: `/discover/movie?api_key=${API_KEY}&with_genres=37`,
   },
-  getchAnimation: {
+  fetchAnimation: {
     title: "Animation",
     url: `/discover/movie?api_key=${API_KEY}&with_genres=16`,
   },
-  getchTV: {
+  fetchTV: {
     title: "TV Movie",
     url: `/discover/movie?api_key=${API_KEY}&with_genres=10770`,
   },
